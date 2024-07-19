@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Icicles_Vector_PNG_Images__Icicle_Frames_Square__Icicle__Winter__Ice_PNG_Image_For_Free_Download-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

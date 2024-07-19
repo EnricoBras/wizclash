@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54178EA92C452525008039FF /* ChoosePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54178EA82C452525008039FF /* ChoosePlayView.swift */; };
+		54178EAB2C4525E1008039FF /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54178EAA2C4525E1008039FF /* GestureView.swift */; };
+		543B9F102C3ECDEB00FABBAC /* WizardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F0F2C3ECDEB00FABBAC /* WizardGameApp.swift */; };
+		543B9F122C3ECDEB00FABBAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F112C3ECDEB00FABBAC /* ContentView.swift */; };
+		543B9F142C3ECDEC00FABBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543B9F132C3ECDEC00FABBAC /* Assets.xcassets */; };
+		543B9F172C3ECDEC00FABBAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543B9F162C3ECDEC00FABBAC /* Preview Assets.xcassets */; };
+		543B9F1D2C3ECDEC00FABBAC /* WizardGame Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 543B9F1C2C3ECDEC00FABBAC /* WizardGame Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		543B9F222C3ECDEC00FABBAC /* WizardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F212C3ECDEC00FABBAC /* WizardGameApp.swift */; };
+		543B9F242C3ECDEC00FABBAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F232C3ECDEC00FABBAC /* ContentView.swift */; };
+		543B9F262C3ECDED00FABBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543B9F252C3ECDED00FABBAC /* Assets.xcassets */; };
+		543B9F292C3ECDED00FABBAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543B9F282C3ECDED00FABBAC /* Preview Assets.xcassets */; };
+		543B9F3B2C3ECE0700FABBAC /* AnimationCreationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F342C3ECE0700FABBAC /* AnimationCreationFile.swift */; };
+		543B9F3D2C3ECE0700FABBAC /* MagicStructureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F362C3ECE0700FABBAC /* MagicStructureData.swift */; };
+		543B9F3E2C3ECE0700FABBAC /* PlayerStructureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F372C3ECE0700FABBAC /* PlayerStructureData.swift */; };
+		543B9F452C3ECE1D00FABBAC /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F402C3ECE1D00FABBAC /* ConnectingView.swift */; };
+		543B9F462C3ECE1D00FABBAC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F412C3ECE1D00FABBAC /* Message.swift */; };
+		543B9F472C3ECE1D00FABBAC /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F422C3ECE1D00FABBAC /* MPCManager.swift */; };
+		543B9F532C3ECE2700FABBAC /* GamingSceneInitz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F4C2C3ECE2700FABBAC /* GamingSceneInitz.swift */; };
+		543B9F542C3ECE2700FABBAC /* GamingSceneMultiplayerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F4D2C3ECE2700FABBAC /* GamingSceneMultiplayerFile.swift */; };
+		543B9F5A2C3ECE5B00FABBAC /* TrainingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F562C3ECE5B00FABBAC /* TrainingScene.swift */; };
+		543B9F632C3ECE6400FABBAC /* ChooseBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F5F2C3ECE6400FABBAC /* ChooseBackgroundView.swift */; };
+		543B9F642C3ECE6400FABBAC /* BookOfMagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F602C3ECE6400FABBAC /* BookOfMagicView.swift */; };
+		543B9F6A2C3ECE6A00FABBAC /* GameMultiplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F662C3ECE6A00FABBAC /* GameMultiplayerView.swift */; };
+		543B9F6B2C3ECE6A00FABBAC /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F672C3ECE6A00FABBAC /* HostingController.swift */; };
+		543B9F6C2C3ECE6A00FABBAC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543B9F682C3ECE6A00FABBAC /* GameView.swift */; };
+		5444BB9E2C46A6A500548117 /* SoundsCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5444BB9D2C46A6A500548117 /* SoundsCreation.swift */; };
+		5444BBA52C46BB2C00548117 /* Fight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5444BBA42C46BB2C00548117 /* Fight.mp3 */; };
+		5444BBA72C46BB3500548117 /* Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5444BBA62C46BB3500548117 /* Menu.mp3 */; };
+		5444BBAD2C470BE700548117 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5444BBAC2C470BE700548117 /* error.mp3 */; };
+		5444BBAE2C470BE700548117 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5444BBAC2C470BE700548117 /* error.mp3 */; };
+		547807B32C447562007FD8A9 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547807B22C447562007FD8A9 /* AVFAudio.framework */; };
+		547807B82C447902007FD8A9 /* Blizzard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 547807B72C447902007FD8A9 /* Blizzard.mp3 */; };
+		547807BA2C44790C007FD8A9 /* Heal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 547807B92C44790C007FD8A9 /* Heal.mp3 */; };
+		547807BE2C447D02007FD8A9 /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547807BD2C447D02007FD8A9 /* TrainingView.swift */; };
+		54853CE72C47FFA00034BCE0 /* Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54853CE62C47FFA00034BCE0 /* Fire.mp3 */; };
+		54853CE92C49AB8D0034BCE0 /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54853CE82C49AB8D0034BCE0 /* Thunder.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543B9F1E2C3ECDEC00FABBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543B9F042C3ECDEB00FABBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543B9F1B2C3ECDEC00FABBAC;
+			remoteInfo = "WizardGame Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		543B9F2F2C3ECDED00FABBAC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				543B9F1D2C3ECDEC00FABBAC /* WizardGame Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54178EA82C452525008039FF /* ChoosePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlayView.swift; sourceTree = "<group>"; };
+		54178EAA2C4525E1008039FF /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		543B9F0C2C3ECDEB00FABBAC /* WizardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543B9F0F2C3ECDEB00FABBAC /* WizardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardGameApp.swift; sourceTree = "<group>"; };
+		543B9F112C3ECDEB00FABBAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		543B9F132C3ECDEC00FABBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543B9F162C3ECDEC00FABBAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543B9F1C2C3ECDEC00FABBAC /* WizardGame Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WizardGame Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543B9F212C3ECDEC00FABBAC /* WizardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardGameApp.swift; sourceTree = "<group>"; };
+		543B9F232C3ECDEC00FABBAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		543B9F252C3ECDED00FABBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543B9F282C3ECDED00FABBAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543B9F342C3ECE0700FABBAC /* AnimationCreationFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationCreationFile.swift; sourceTree = "<group>"; };
+		543B9F362C3ECE0700FABBAC /* MagicStructureData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicStructureData.swift; sourceTree = "<group>"; };
+		543B9F372C3ECE0700FABBAC /* PlayerStructureData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStructureData.swift; sourceTree = "<group>"; };
+		543B9F402C3ECE1D00FABBAC /* ConnectingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		543B9F412C3ECE1D00FABBAC /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		543B9F422C3ECE1D00FABBAC /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		543B9F4C2C3ECE2700FABBAC /* GamingSceneInitz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingSceneInitz.swift; sourceTree = "<group>"; };
+		543B9F4D2C3ECE2700FABBAC /* GamingSceneMultiplayerFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingSceneMultiplayerFile.swift; sourceTree = "<group>"; };
+		543B9F562C3ECE5B00FABBAC /* TrainingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingScene.swift; sourceTree = "<group>"; };
+		543B9F5F2C3ECE6400FABBAC /* ChooseBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseBackgroundView.swift; sourceTree = "<group>"; };
+		543B9F602C3ECE6400FABBAC /* BookOfMagicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookOfMagicView.swift; sourceTree = "<group>"; };
+		543B9F662C3ECE6A00FABBAC /* GameMultiplayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMultiplayerView.swift; sourceTree = "<group>"; };
+		543B9F672C3ECE6A00FABBAC /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		543B9F682C3ECE6A00FABBAC /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		543B9F6D2C3ED01E00FABBAC /* WizardGame Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WizardGame Watch App.entitlements"; sourceTree = "<group>"; };
+		543B9F6E2C3ED02300FABBAC /* WizardGame-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WizardGame-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5444BB9C2C456DB600548117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5444BB9D2C46A6A500548117 /* SoundsCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsCreation.swift; sourceTree = "<group>"; };
+		5444BBA42C46BB2C00548117 /* Fight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fight.mp3; path = ../../../Fight.mp3; sourceTree = "<group>"; };
+		5444BBA62C46BB3500548117 /* Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Menu.mp3; path = ../../../Menu.mp3; sourceTree = "<group>"; };
+		5444BBAC2C470BE700548117 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = error.mp3; path = ../../../error.mp3; sourceTree = "<group>"; };
+		547807B22C447562007FD8A9 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.5.sdk/System/Library/Frameworks/AVFAudio.framework; sourceTree = DEVELOPER_DIR; };
+		547807B42C4475A3007FD8A9 /* libAudioToolboxUtility.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAudioToolboxUtility.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.5.sdk/usr/lib/libAudioToolboxUtility.tbd; sourceTree = DEVELOPER_DIR; };
+		547807B72C447902007FD8A9 /* Blizzard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Blizzard.mp3; path = "../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/Blizzard.mp3"; sourceTree = "<group>"; };
+		547807B92C44790C007FD8A9 /* Heal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Heal.mp3; path = "../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/Heal.mp3"; sourceTree = "<group>"; };
+		547807BD2C447D02007FD8A9 /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		54853CE62C47FFA00034BCE0 /* Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fire.mp3; sourceTree = "<group>"; };
+		54853CE82C49AB8D0034BCE0 /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunder.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543B9F092C3ECDEB00FABBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543B9F192C3ECDEC00FABBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547807B32C447562007FD8A9 /* AVFAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543B9F032C3ECDEB00FABBAC = {
+			isa = PBXGroup;
+			children = (
+				543B9F0E2C3ECDEB00FABBAC /* WizardGame */,
+				543B9F202C3ECDEC00FABBAC /* WizardGame Watch App */,
+				543B9F0D2C3ECDEB00FABBAC /* Products */,
+				547807B12C447562007FD8A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		543B9F0D2C3ECDEB00FABBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F0C2C3ECDEB00FABBAC /* WizardGame.app */,
+				543B9F1C2C3ECDEC00FABBAC /* WizardGame Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543B9F0E2C3ECDEB00FABBAC /* WizardGame */ = {
+			isa = PBXGroup;
+			children = (
+				5444BB9C2C456DB600548117 /* Info.plist */,
+				543B9F662C3ECE6A00FABBAC /* GameMultiplayerView.swift */,
+				543B9F682C3ECE6A00FABBAC /* GameView.swift */,
+				547807BD2C447D02007FD8A9 /* TrainingView.swift */,
+				543B9F672C3ECE6A00FABBAC /* HostingController.swift */,
+				543B9F602C3ECE6400FABBAC /* BookOfMagicView.swift */,
+				54178EAA2C4525E1008039FF /* GestureView.swift */,
+				543B9F5F2C3ECE6400FABBAC /* ChooseBackgroundView.swift */,
+				54178EA82C452525008039FF /* ChoosePlayView.swift */,
+				543B9F592C3ECE5B00FABBAC /* SpritekitSceneBuilder */,
+				543B9F4F2C3ECE2700FABBAC /* SpritekitPart */,
+				543B9F442C3ECE1D00FABBAC /* MultipeerConnectionFolder */,
+				543B9F392C3ECE0700FABBAC /* GameStructure */,
+				543B9F0F2C3ECDEB00FABBAC /* WizardGameApp.swift */,
+				543B9F112C3ECDEB00FABBAC /* ContentView.swift */,
+				543B9F132C3ECDEC00FABBAC /* Assets.xcassets */,
+				5444BB9F2C46A6E000548117 /* Sounds */,
+				543B9F152C3ECDEC00FABBAC /* Preview Content */,
+			);
+			path = WizardGame;
+			sourceTree = "<group>";
+		};
+		543B9F152C3ECDEC00FABBAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F162C3ECDEC00FABBAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		543B9F202C3ECDEC00FABBAC /* WizardGame Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F6E2C3ED02300FABBAC /* WizardGame-Watch-App-Info.plist */,
+				543B9F6D2C3ED01E00FABBAC /* WizardGame Watch App.entitlements */,
+				543B9F212C3ECDEC00FABBAC /* WizardGameApp.swift */,
+				543B9F232C3ECDEC00FABBAC /* ContentView.swift */,
+				54853CE62C47FFA00034BCE0 /* Fire.mp3 */,
+				54853CE82C49AB8D0034BCE0 /* Thunder.mp3 */,
+				547807B92C44790C007FD8A9 /* Heal.mp3 */,
+				547807B72C447902007FD8A9 /* Blizzard.mp3 */,
+				543B9F252C3ECDED00FABBAC /* Assets.xcassets */,
+				543B9F272C3ECDED00FABBAC /* Preview Content */,
+			);
+			path = "WizardGame Watch App";
+			sourceTree = "<group>";
+		};
+		543B9F272C3ECDED00FABBAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F282C3ECDED00FABBAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		543B9F392C3ECE0700FABBAC /* GameStructure */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F342C3ECE0700FABBAC /* AnimationCreationFile.swift */,
+				543B9F362C3ECE0700FABBAC /* MagicStructureData.swift */,
+				543B9F372C3ECE0700FABBAC /* PlayerStructureData.swift */,
+			);
+			path = GameStructure;
+			sourceTree = "<group>";
+		};
+		543B9F442C3ECE1D00FABBAC /* MultipeerConnectionFolder */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F402C3ECE1D00FABBAC /* ConnectingView.swift */,
+				543B9F412C3ECE1D00FABBAC /* Message.swift */,
+				543B9F422C3ECE1D00FABBAC /* MPCManager.swift */,
+			);
+			path = MultipeerConnectionFolder;
+			sourceTree = "<group>";
+		};
+		543B9F4F2C3ECE2700FABBAC /* SpritekitPart */ = {
+			isa = PBXGroup;
+			children = (
+				543B9F4D2C3ECE2700FABBAC /* GamingSceneMultiplayerFile.swift */,
+				543B9F4C2C3ECE2700FABBAC /* GamingSceneInitz.swift */,
+				543B9F562C3ECE5B00FABBAC /* TrainingScene.swift */,
+			);
+			path = SpritekitPart;
+			sourceTree = "<group>";
+		};
+		543B9F592C3ECE5B00FABBAC /* SpritekitSceneBuilder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpritekitSceneBuilder;
+			sourceTree = "<group>";
+		};
+		5444BB9F2C46A6E000548117 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5444BB9D2C46A6A500548117 /* SoundsCreation.swift */,
+				5444BBA62C46BB3500548117 /* Menu.mp3 */,
+				5444BBA42C46BB2C00548117 /* Fight.mp3 */,
+				5444BBAC2C470BE700548117 /* error.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		547807B12C447562007FD8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547807B42C4475A3007FD8A9 /* libAudioToolboxUtility.tbd */,
+				547807B22C447562007FD8A9 /* AVFAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543B9F0B2C3ECDEB00FABBAC /* WizardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543B9F302C3ECDED00FABBAC /* Build configuration list for PBXNativeTarget "WizardGame" */;
+			buildPhases = (
+				543B9F082C3ECDEB00FABBAC /* Sources */,
+				543B9F092C3ECDEB00FABBAC /* Frameworks */,
+				543B9F0A2C3ECDEB00FABBAC /* Resources */,
+				543B9F2F2C3ECDED00FABBAC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543B9F1F2C3ECDEC00FABBAC /* PBXTargetDependency */,
+			);
+			name = WizardGame;
+			productName = WizardGame;
+			productReference = 543B9F0C2C3ECDEB00FABBAC /* WizardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543B9F1B2C3ECDEC00FABBAC /* WizardGame Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543B9F2C2C3ECDED00FABBAC /* Build configuration list for PBXNativeTarget "WizardGame Watch App" */;
+			buildPhases = (
+				543B9F182C3ECDEC00FABBAC /* Sources */,
+				543B9F192C3ECDEC00FABBAC /* Frameworks */,
+				543B9F1A2C3ECDEC00FABBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WizardGame Watch App";
+			productName = "WizardGame Watch App";
+			productReference = 543B9F1C2C3ECDEC00FABBAC /* WizardGame Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543B9F042C3ECDEB00FABBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					543B9F0B2C3ECDEB00FABBAC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					543B9F1B2C3ECDEC00FABBAC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 543B9F072C3ECDEB00FABBAC /* Build configuration list for PBXProject "WizardGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543B9F032C3ECDEB00FABBAC;
+			productRefGroup = 543B9F0D2C3ECDEB00FABBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543B9F0B2C3ECDEB00FABBAC /* WizardGame */,
+				543B9F1B2C3ECDEC00FABBAC /* WizardGame Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543B9F0A2C3ECDEB00FABBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5444BBA52C46BB2C00548117 /* Fight.mp3 in Resources */,
+				5444BBA72C46BB3500548117 /* Menu.mp3 in Resources */,
+				543B9F172C3ECDEC00FABBAC /* Preview Assets.xcassets in Resources */,
+				543B9F142C3ECDEC00FABBAC /* Assets.xcassets in Resources */,
+				5444BBAD2C470BE700548117 /* error.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543B9F1A2C3ECDEC00FABBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54853CE72C47FFA00034BCE0 /* Fire.mp3 in Resources */,
+				547807B82C447902007FD8A9 /* Blizzard.mp3 in Resources */,
+				547807BA2C44790C007FD8A9 /* Heal.mp3 in Resources */,
+				543B9F292C3ECDED00FABBAC /* Preview Assets.xcassets in Resources */,
+				543B9F262C3ECDED00FABBAC /* Assets.xcassets in Resources */,
+				54853CE92C49AB8D0034BCE0 /* Thunder.mp3 in Resources */,
+				5444BBAE2C470BE700548117 /* error.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543B9F082C3ECDEB00FABBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543B9F642C3ECE6400FABBAC /* BookOfMagicView.swift in Sources */,
+				543B9F542C3ECE2700FABBAC /* GamingSceneMultiplayerFile.swift in Sources */,
+				543B9F6A2C3ECE6A00FABBAC /* GameMultiplayerView.swift in Sources */,
+				543B9F472C3ECE1D00FABBAC /* MPCManager.swift in Sources */,
+				543B9F3D2C3ECE0700FABBAC /* MagicStructureData.swift in Sources */,
+				543B9F122C3ECDEB00FABBAC /* ContentView.swift in Sources */,
+				54178EAB2C4525E1008039FF /* GestureView.swift in Sources */,
+				543B9F3E2C3ECE0700FABBAC /* PlayerStructureData.swift in Sources */,
+				543B9F6C2C3ECE6A00FABBAC /* GameView.swift in Sources */,
+				543B9F102C3ECDEB00FABBAC /* WizardGameApp.swift in Sources */,
+				543B9F532C3ECE2700FABBAC /* GamingSceneInitz.swift in Sources */,
+				543B9F6B2C3ECE6A00FABBAC /* HostingController.swift in Sources */,
+				543B9F5A2C3ECE5B00FABBAC /* TrainingScene.swift in Sources */,
+				543B9F632C3ECE6400FABBAC /* ChooseBackgroundView.swift in Sources */,
+				54178EA92C452525008039FF /* ChoosePlayView.swift in Sources */,
+				543B9F462C3ECE1D00FABBAC /* Message.swift in Sources */,
+				5444BB9E2C46A6A500548117 /* SoundsCreation.swift in Sources */,
+				543B9F3B2C3ECE0700FABBAC /* AnimationCreationFile.swift in Sources */,
+				547807BE2C447D02007FD8A9 /* TrainingView.swift in Sources */,
+				543B9F452C3ECE1D00FABBAC /* ConnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543B9F182C3ECDEC00FABBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543B9F242C3ECDEC00FABBAC /* ContentView.swift in Sources */,
+				543B9F222C3ECDEC00FABBAC /* WizardGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543B9F1F2C3ECDEC00FABBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543B9F1B2C3ECDEC00FABBAC /* WizardGame Watch App */;
+			targetProxy = 543B9F1E2C3ECDEC00FABBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		543B9F2A2C3ECDED00FABBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543B9F2B2C3ECDED00FABBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		543B9F2D2C3ECDED00FABBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WizardGame Watch App/WizardGame Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizardGame Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B9R998P97P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WizardGame-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WizardGame;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "some string value stating the reason";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "some string value stating the reason";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = delta.WizardGame;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = delta.WizardGame.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		543B9F2E2C3ECDED00FABBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WizardGame Watch App/WizardGame Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizardGame Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B9R998P97P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WizardGame-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WizardGame;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "some string value stating the reason";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "some string value stating the reason";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = delta.WizardGame;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = delta.WizardGame.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		543B9F312C3ECDED00FABBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizardGame/Preview Content\"";
+				DEVELOPMENT_TEAM = B9R998P97P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WizardGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WizardGame;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = delta.WizardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543B9F322C3ECDED00FABBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizardGame/Preview Content\"";
+				DEVELOPMENT_TEAM = B9R998P97P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WizardGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WizardGame;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = delta.WizardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543B9F072C3ECDEB00FABBAC /* Build configuration list for PBXProject "WizardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543B9F2A2C3ECDED00FABBAC /* Debug */,
+				543B9F2B2C3ECDED00FABBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543B9F2C2C3ECDED00FABBAC /* Build configuration list for PBXNativeTarget "WizardGame Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543B9F2D2C3ECDED00FABBAC /* Debug */,
+				543B9F2E2C3ECDED00FABBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543B9F302C3ECDED00FABBAC /* Build configuration list for PBXNativeTarget "WizardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543B9F312C3ECDED00FABBAC /* Debug */,
+				543B9F322C3ECDED00FABBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543B9F042C3ECDEB00FABBAC /* Project object */;
+}
